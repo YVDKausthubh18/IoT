@@ -32,16 +32,19 @@
         }
         .btn {
             display: inline-block;
-            padding: 10px 20px;
-            margin-top: 10px;
-            font-size: 1.2em;
-            color: #fff;
-            background: #007bff;
+            padding: 12px 24px;
+            margin-top: 15px;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: white;
+            background: #ff9900;
             text-decoration: none;
             border-radius: 5px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            transition: 0.3s;
         }
         .btn:hover {
-            background: #0056b3;
+            background: #cc7a00;
         }
 
         /* Hero Section */
@@ -59,6 +62,17 @@
             margin-top: 20px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        /* Highlight Box */
+        .highlight {
+            background: #ffc107;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 30px auto;
+            width: 80%;
+            font-size: 1.2em;
+            font-weight: bold;
         }
 
         /* Authors Section */
@@ -128,13 +142,18 @@
     <div class="hero">
         <h1>The IoT Revolution</h1>
         <h2>How Connected Devices Are Shaping Tomorrow</h2>
-        <a href="https://your-download-link.com" class="btn">📖 Download Now</a>
+        <a href="https://www.amazon.com/dp/YOUR-BOOK-ID" class="btn">📚 Live on Amazon - Buy Now</a>
     </div>
 
     <!-- Book Cover -->
     <div class="container book-cover">
-<img src="book-cover.jpg" alt="Book Cover" style="max-width: 100%; height: auto;">
+        <img src="book-cover.jpg" alt="Book Cover" style="max-width: 100%; height: auto;">
+    </div>
 
+    <!-- Book Availability -->
+    <div class="highlight">
+        📖 **This book is also available in our college library!**  
+        Check it out now and explore the future of IoT.
     </div>
 
     <!-- Book Summary -->
